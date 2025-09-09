@@ -5,7 +5,7 @@ Topic modeling pipeline for analyzing Trustpilot reviews of **Deghi**, combining
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 This project applies **Natural Language Processing (NLP)** techniques to customer reviews in order to extract recurring themes, identify pain points, and provide actionable insights.
 
 **Main steps:**
@@ -29,7 +29,7 @@ This project applies **Natural Language Processing (NLP)** techniques to custome
 
 ---
 
-## 🎓 Academic Context
+##  Academic Context
 This project was developed as part of the **Deep Learning course** taught by **Prof.ssa Francesca Fallucchi**  
 at **Università degli Studi Guglielmo Marconi** (Rome, Italy).
 
@@ -67,7 +67,7 @@ Here is an example of the **topic clustering visualization** generated with BERT
 
 ---
 
-## ⚙️ Requirements
+## ⚙Requirements
 Main dependencies:
 - Python 3.9+
 - pandas, numpy, matplotlib, seaborn
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+##  Usage
 1. Clone the repo:
 ```bash
 git clone https://github.com/YOUR_USERNAME/deghi-trustpilot-topics.git
@@ -106,7 +106,7 @@ jupyter notebook deghiTrustpilot.md
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Extend to multi-company datasets
 - Evaluate topic coherence metrics
 - Automate dashboard integration (e.g., Plotly Dash / Streamlit)
@@ -114,12 +114,12 @@ jupyter notebook deghiTrustpilot.md
 
 ---
 
-## 📜 License
+##  License
 This project is released under the **MIT License**.  
 Feel free to use, modify, and share.
 
 ---
 
-## ✨ Credits
+##  Credits
 Developed as part of the **Deep Learning course** (Prof.ssa Francesca Fallucchi, UniMarconi).  
 Uses [BERTopic](https://github.com/MaartenGr/BERTopic) and [Hugging Face Transformers](https://huggingface.co/).
