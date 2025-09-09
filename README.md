@@ -1,5 +1,6 @@
 # Deghi Trustpilot Topic Modeling
 
+“Deghi is an Italian e-commerce company specializing in home and garden furniture, bathroom fixtures, and interior design products. It operates primarily online, offering a wide catalog of affordable items for furnishing and home improvement.”
 Topic modeling pipeline for analyzing Trustpilot reviews of **Deghi**, combining text preprocessing, sentence embeddings, clustering with **BERTopic**, and **LLM-based topic labeling**.
 
 ---
