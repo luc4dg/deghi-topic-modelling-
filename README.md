@@ -32,5 +32,86 @@ This project applies **Natural Language Processing (NLP)** techniques to custome
 This project was developed as part of the **Deep Learning course** taught by **Prof.ssa Francesca Fallucchi**  
 at **Università degli Studi Guglielmo Marconi** (Rome, Italy).
 
+---
 
 ## 📂 Repository Structure
+```
+.
+├── deghi_dataset.csv        # Trustpilot dataset (input data)
+├── result/
+│   └── topic_info.csv       # Exported topics with labels
+├── iframe_figures/          # Interactive BERTopic visualizations
+├── deghiTrustpilot.md       # Jupyter/Colab notebook with full workflow
+└── README.md                # Project documentation
+```
+
+---
+
+## ⚙️ Requirements
+Main dependencies:
+- Python 3.9+
+- pandas, numpy, matplotlib, seaborn
+- spacy (`it_core_news_sm`)
+- sentence-transformers
+- BERTopic
+- UMAP-learn, HDBSCAN
+- transformers (Hugging Face)
+- datamapplot
+- nltk (stopwords)
+
+Install with:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Usage
+1. Clone the repo:
+```bash
+git clone https://github.com/YOUR_USERNAME/deghi-trustpilot-topics.git
+cd deghi-trustpilot-topics
+```
+
+2. Prepare the dataset (`deghi_dataset.csv`).
+
+3. Run the notebook:
+```bash
+jupyter notebook deghiTrustpilot.md
+```
+
+4. Export results:
+- Clustered topics (`topic_info.csv`)
+- Interactive visualizations (topic hierarchy, embeddings map)
+
+---
+
+## 📊 Example Output
+- **Main themes identified**:
+  - Delivery delays and shipping times
+  - Defective or low-quality furniture (tables, chairs, shower boxes)
+  - Refund and return issues
+  - Mismatch between product photos and reality
+  - Negative customer service experiences
+- **Number of topics**: ~23 + outliers
+- **Visuals**: hierarchy dendrogram and 2D topic map
+
+---
+
+## 🔮 Future Improvements
+- Extend to multi-company datasets
+- Evaluate topic coherence metrics
+- Automate dashboard integration (e.g., Plotly Dash / Streamlit)
+- Fine-tune embeddings on Italian domain-specific corpora
+
+---
+
+## 📜 License
+This project is released under the **MIT License**.  
+Feel free to use, modify, and share.
+
+---
+
+## ✨ Credits
+Developed as part of the **Deep Learning course** (Prof.ssa Francesca Fallucchi, UniMarconi).  
+Uses [BERTopic](https://github.com/MaartenGr/BERTopic) and [Hugging Face Transformers](https://huggingface.co/).
