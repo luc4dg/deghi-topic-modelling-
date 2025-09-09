@@ -41,9 +41,28 @@ at **Università degli Studi Guglielmo Marconi** (Rome, Italy).
 ├── result/
 │   └── topic_info.csv       # Exported topics with labels
 ├── iframe_figures/          # Interactive BERTopic visualizations
+├── cluster_deghi.png        # Cluster visualization (BERTopic results)
 ├── deghiTrustpilot.md       # Jupyter/Colab notebook with full workflow
 └── README.md                # Project documentation
 ```
+
+---
+
+## 📊 Example Output
+
+Here is an example of the **topic clustering visualization** generated with BERTopic:
+
+![Deghi Cluster Visualization](cluster_deghi.png)
+
+- **Main themes identified**:
+  - Delivery delays and shipping times
+  - Defective or low-quality furniture (tables, chairs, shower boxes)
+  - Refund and return issues
+  - Mismatch between product photos and reality
+  - Negative customer service experiences
+
+- **Number of topics**: ~23 + outliers  
+- **Visuals**: hierarchy dendrogram and 2D topic map
 
 ---
 
@@ -83,18 +102,6 @@ jupyter notebook deghiTrustpilot.md
 4. Export results:
 - Clustered topics (`topic_info.csv`)
 - Interactive visualizations (topic hierarchy, embeddings map)
-
----
-
-## 📊 Example Output
-- **Main themes identified**:
-  - Delivery delays and shipping times
-  - Defective or low-quality furniture (tables, chairs, shower boxes)
-  - Refund and return issues
-  - Mismatch between product photos and reality
-  - Negative customer service experiences
-- **Number of topics**: ~23 + outliers
-- **Visuals**: hierarchy dendrogram and 2D topic map
 
 ---
 
