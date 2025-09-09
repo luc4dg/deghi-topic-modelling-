@@ -28,4 +28,9 @@ This project applies **Natural Language Processing (NLP)** techniques to custome
 
 ---
 
+## 🎓 Academic Context
+This project was developed as part of the **Deep Learning course** taught by **Prof.ssa Francesca Fallucchi**  
+at **Università degli Studi Guglielmo Marconi** (Rome, Italy).
+
+
 ## 📂 Repository Structure
